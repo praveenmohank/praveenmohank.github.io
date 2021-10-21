@@ -1,0 +1,67 @@
+/*The following css stylesheet provides the background color, font style and size for the entire webpage*/
+/* Color code Source: https://www.w3schools.com/html/html_colors.asp*/
+/*The body part of the webpage is selected with a proper font size, color and style,which is adequate for the website*/
+body {
+  background-color: #F5FFFA;
+  font-family: Times New Roman, serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+/*Removed the bullets because the navigation bar does'nt need list markers*/
+/*Margins and Padding is set to be zero to remove the default browser settings to accomodate navigation bar above the body*/
+/*Source: https://www.w3schools.com/css/css_navbar.asp*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+/*The navigation bar is aligned to the right side of the webpage*/
+li {
+  float: right;
+}
+
+/*Properties for the navigation bar are selected*/
+/*The display style is set to be block with underlined blue color and padding set to 14px and 16px*/
+/*Source: https://www.w3schools.com/css/css_navbar.asp*/
+li a {
+  display: block;
+  color: #0000FF;
+  padding: 14px 16px;
+  text-decoration: underline;
+}
+
+/*hover selector is used in the navigation bar to identify which document is hovered on with the mouse by the user*/
+/*Source: https://www.w3schools.com/cssref/sel_hover.asp*/
+li a:hover:not(.active) {
+  background-color: #6495ED;
+  color: #FFFFFF;
+}
+
+/*the paragraph "p" is selected with a proper font size, color and style,which is adequate for the website*/
+p {
+	font-family: Georgia, serif;
+	font-size: 20px;
+	color: #C71585;
+}
+
+/*the heading "h2" is selected with a proper font size, color and style,which is adequate for the website*/
+h2 {
+	font-family: Georgia,serif;
+	font-size: 24px;
+	color: #3CB371;
+}
+
+/*the heading "h1" is selected with a proper font size, color and style,which is adequate for the website*/
+h1{
+	background-color: #98FB98;
+	font-family: Georgia;
+	font-size: 34px;
+	font-weight: bold;
+}
+/*The "pre" parts of the webpage is aligned to the center to adjust to the webpage*/
+pre {
+	text-align: center;
+}
