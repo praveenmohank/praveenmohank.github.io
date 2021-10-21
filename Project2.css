@@ -11,6 +11,7 @@ body {
 /*Removed the bullets because the navigation bar does'nt need list markers*/
 /*Margins and Padding is set to be zero to remove the default browser settings to accomodate navigation bar above the body*/
 /*Source: https://www.w3schools.com/css/css_navbar.asp*/
+/*Section 3 Task 5 selected (Navigation Bar)*/
 ul {
   list-style-type: none;
   margin: 0;
